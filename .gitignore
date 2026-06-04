@@ -1,0 +1,23 @@
+# Terraform working directory and local state
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Terraform plan and crash output
+*.tfplan
+*.plan
+crash.log
+crash.*.log
+
+# Local-only Terraform files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI and OS noise
+.terraformrc
+terraform.rc
+.DS_Store
